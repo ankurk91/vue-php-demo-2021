@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+/public/dist/
+/node_modules
+/vendor
+composer.phar
+*.log
+.env
+

@@ -1,0 +1,38 @@
+{
+  "name": "vue-demo-app",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --node-env=development --progress",
+    "watch": "webpack watch --node-env=development --progress",
+    "hot": "webpack serve --node-env=development --progress --hot",
+    "prod": "webpack --node-env=production --progress"
+  },
+  "devDependencies": {
+    "laravel-bundler": "^0.32.1",
+    "vue-loader": "^15.0",
+    "vue-template-compiler": "^2.0"
+  },
+  "dependencies": {
+    "vue": "^2.0"
+  },
+  "browserslist": [
+    "> 2%",
+    "not dead"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "bugfixes": true
+        }
+      ]
+    ],
+    "plugins": []
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14.15",
+    "yarn": "^1.22"
+  }
+}
