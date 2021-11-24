@@ -13,6 +13,7 @@
     "vue-template-compiler": "^2.0"
   },
   "dependencies": {
+    "node-polyfill-webpack-plugin": "^1.1.4",
     "vue": "^2.0"
   },
   "browserslist": [
