@@ -1,10 +1,10 @@
-# Vue js + php demo
+# Vue.js v2 + php v8 demo
 
-Sample project for Vue.js v2.x
+Sample project to work with Vue.js v2.x
 
 ### Requirements
 
-* node.js v14.x
+* node.js v14.x || v16.x
 * yarn v1.22 (classic)
 * php v8.0
 * composer v2.1
@@ -12,7 +12,7 @@ Sample project for Vue.js v2.x
 ### Setup
 
 * Clone the repo
-* Install deps
+* Install dependencies
 
 ```bash
 cp .env.example .env
@@ -23,7 +23,7 @@ composer install
 
 * Run the project
 
-```
+```bash
 yarn run hot
 composer serve
 ```
